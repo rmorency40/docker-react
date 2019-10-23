@@ -6,4 +6,4 @@ before_install:
   - docker build -t rmorency40/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run rmorency40/docker-react  nmp run test -- --coverage
+  - docker run rmorency40/docker-react  npm run test -- --coverage
